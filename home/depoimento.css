@@ -1,0 +1,35 @@
+.depoimento{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.depoimento img{
+  display: block;
+  width:100%;
+}
+
+@media(min-width:500px){
+  .depoimento img{
+    width:400px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  h2::after{
+
+    width:16%;
+
+    
+    }
+    h2::before{
+     
+      width:16%;
+
+      
+      }
+
+}

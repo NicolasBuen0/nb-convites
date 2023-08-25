@@ -1,0 +1,22 @@
+.contate-nos{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+position: relative;
+
+}
+
+
+
+.contate-nos a{
+  position: absolute;
+  top: 50px;
+
+}
+
+.contate-nos h2 {
+  position: absolute;
+  top: 5px;
+}
+

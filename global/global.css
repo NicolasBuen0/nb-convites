@@ -1,0 +1,58 @@
+
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display';
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.padd_tb{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.pt_pb{
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando a parte arrastável da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #858881; /* Cor desejada para a barra de rolagem */
+  border-radius: 5px;
+}
+
+
+
+
+
+

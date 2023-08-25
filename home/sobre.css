@@ -1,0 +1,147 @@
+
+.detalhe{
+text-align: center;
+letter-spacing: 2px;
+font-weight: 400;
+padding-top: 20px;
+position: relative;
+}
+
+
+.saiba_mais::after{
+ content: "";
+ width: 2px;
+ height: 24px;
+ background-color: black;
+ display: inline;
+ position: absolute;
+ top: 18px;
+ margin-left:5px ;
+
+}
+
+.saiba_mais span{
+ padding-right: 10px;
+}
+
+.saiba_mais span::after{
+  content: "";
+  width: 2px;
+  height: 24px;
+  background-color: black;
+  display: inline;
+  position: absolute;
+  top: 18px;
+}
+
+
+
+
+h2{
+
+  font-size: calc(30px + 0.5vw);
+  font-weight: 400; 
+  text-align: center;
+  padding-bottom: 100px;
+  position: relative;
+ 
+
+}
+
+h2::after{
+content: "";
+width:35%;
+height: 2px;
+position: absolute;
+background-color: black;
+display: block;
+top: 20px;
+
+}
+h2::before{
+  content: "";
+  width:35%;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  display: block;
+  top: 20px;
+  right: 0;
+  
+  }
+
+  @media (max-width: 900px) {
+
+    h2::after{
+
+      width:100px;
+
+      
+      }
+      h2::before{
+       
+        width:100px;
+
+        
+        }
+
+  }
+  
+  
+  @media (max-width: 420px) {
+
+    h2::after{
+
+      width:80px;
+
+      
+      }
+      h2::before{
+       
+        width:80px;
+
+        
+        }
+
+  }
+
+  @media (max-width: 377px) {
+
+    h2::after{
+
+      display: none;
+
+      
+      }
+      h2::before{
+       
+        display: none;
+
+        
+        }
+
+  }
+
+
+
+
+.texto{
+  
+  color: #575757;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#texto_transforme{
+  background-color: #8E9C8B;
+  color: white;
+  font-size: 20px;
+}
+
+#saiba_mais{
+  padding-top: 50px;
+}
+
+
+
