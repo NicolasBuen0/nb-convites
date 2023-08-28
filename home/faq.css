@@ -1,0 +1,62 @@
+
+.faq_container{
+  
+ 
+}
+
+.faq{
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+
+}
+
+
+.resposta{
+  font-family: Roboto;
+  color: white;
+  font-size: (14dpx + 0.5vw);
+  color:#575757;
+  padding-top: 20px;
+}
+
+.pergunta {
+  font-family: 'Playfair Display';
+  font-size:calc(15px + 0.5vw); 
+  position: relative;
+
+}
+
+.pergunta::after {
+display: inline-block;
+content: "";
+color: #575757;
+width: 15px;
+height: 15px;
+background-image: url("../img/abrir.svg");
+position: absolute;
+background-repeat: no-repeat;
+padding-top: 5px;
+margin-left: 10px;
+bottom: 0;
+}
+
+.svg-abrir{
+ width: 20px;
+}
+
+
+.pergunta.ativo + .resposta {
+display: none;
+
+
+}
+
+.pergunta.ativo::after{
+  transform: rotate3d(90deg)!important;
+  transform: rotate(180deg);
+  
+}
