@@ -37,8 +37,14 @@
   display: inline-flex;
   align-items: center;
   flex-direction: row-reverse;
-  padding-bottom: 40px;
-  color: #858881;
+  padding-bottom: 20px;
+  color: #858881; 
+
+}
+
+#tel{
+  font-family: Roboto;
+  font-weight: 400;
 }
 
 form .botao {
