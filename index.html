@@ -10,29 +10,34 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>N & B - convites para casamento</title>
 </head>
 
 <body>
-  <header class="container padd_tb">
+  <header class="container padd_tb" data-aos="fade-up">
     <span>N & B</span>
     <span id="nome_logo_descricao">convites digitais</span>
   </header>
-  <div class="container home" id="img">
+  <div class="container home" id="img" data-aos="fade-up">
     <img src="img/casal.jpg">
   </div>
-  <section id="sobre" class="container pt_pb">
+  <section id="sobre" class="container pt_pb" data-aos="fade-up">
     <p class="detalhe">UM POUCO</p>
     <h2 class="">SOBRE NÓS</h2>
     <p class="texto">Bem-vindos ao nosso mundo de criatividade digital e amor eterno! Aqui na N&B, estamos emocionados em apresentar a você uma maneira moderna e encantadora de compartilhar a sua história de amor com os convites de casamento digitais</p>
     <p class="detalhe saiba_mais"><span> </span> SAIBA MAIS</p>
-
+    <div class="link link_topo">
+      <a href="mailto:contato@nicolasbueno.com.br" target="_blank "><img src="img/email.svg" id="email-img" width="48" height="48"></a>
+      <a href="https://api.whatsapp.com/send/?phone=5551989582143&text=Ol%C3%A1,+gostaria+de+saber+mais+sobre+os+convites!!&type=phone_number&app_absent=0" id="tel" target="_blank "><img src="img/whats.svg" id="email-img" width="48" height="48"></a>
+      <a href="https://www.instagram.com/convitecasamentos" target="_blank "><img src="img/insta.svg" id="email-img" width="48" height="48"></a>
+    </div>
   </section>
-  <section id="modelos " class=" pt_pb container">
+  <section id="modelos " class=" pt_pb container" data-aos="fade-up">
     <p class="detalhe">NOSSOS ENCANTADORES</p>
     <h2 class="">PACOTES</h2>
     <ul class="imgs-modelo">
-      <li id="item-1"><img src="img/modelo.png">
+      <li id="item-1"><img src="img/modelo.png" data-aos="flip-left">
         <div class="container-conteudo-modelos">
           <h3 class="titulo-modelos">Casamento Essencial</h3>
           <p class="informacoes-modelo">Confirmar presença (Whatsapp)</p>
@@ -43,7 +48,7 @@
         <span class="valor">R$ 250</span>
         <a href='https://api.whatsapp.com/send/?phone=5551989582143&text=Ol%C3%A1,+gostaria+de+solicitar+o+pacote+"casamento essencial!"&type=phone_number&app_absent=0' class="btn-whats" target="_blank">Solicitar Convite</a>
       </li>
-      <li id="item-1"><img src="img/modelo2.png">
+      <li id="item-1"><img src="img/modelo2.png" data-aos="flip-left">
         <div class="container-conteudo-modelos">
           <h3 class="titulo-modelos">União Perfeita</h3>
           <p class="informacoes-modelo">Inclui os recursos do pacote "Casamento Essencial"</p>
@@ -54,7 +59,7 @@
         <span class="valor">R$ 500</span>
         <a href=' https://api.whatsapp.com/send/?phone=5551989582143&text=Ol%C3%A1,+gostaria+de+solicitar+o+pacote+"união perfeita"!&type=phone_number&app_absent=0' class="btn-whats" target="_blank">Solicitar Convite</a>
       </li>
-      <li id="item-1"><img src="img/modelo3.png">
+      <li id="item-1"><img src="img/modelo3.png" data-aos="flip-left">
         <div class="container-conteudo-modelos">
           <h3 class="titulo-modelos">Casamento dos Sonhos</h3>
           <p class="informacoes-modelo">Inclui os recursos do pacote "União Perfeita"</p>
@@ -71,9 +76,9 @@
     <p class="detalhe">ALGUNS</p>
     <h2 class="">DEPOIMENTOS</h2>
     <div class="depoimento">
-      <img src="img/depoimento1.jpg">
-      <img src="img/depoimento2.jpg">
-      <img src="img/depoimento3.jpg">
+      <img src="img/depoimento1.jpg" data-aos="flip-left">
+      <img src="img/depoimento2.jpg" data-aos="flip-left">
+      <img src="img/depoimento3.jpg" data-aos="flip-left">
     </div>
   </section>
   <!--   <p class="texto lema">💕Cada convite digital que criamos é mais do que pixels na tela, é um fragmento da história do casal💕</p> -->
@@ -81,7 +86,7 @@
     <img src="img/conta-te.jpg">
   </section> -->
 
-  <section class="faq_container container">
+  <section class="faq_container container" data-aos="fade-up">
     <p class="detalhe">PERGUNTAS</p>
     <h2 class="">FREQUENTES </h2>
     <div class="faq">
@@ -102,14 +107,14 @@
     </div>
 
   </section>
-  <section class="contato-bg grid-2-cl container" id="contato">
+  <section class="contato-bg grid-2-cl container" id="contato" data-aos="fade-up">
     <div class="contato">
       <div class="link">
         <p class="detalhe">NOSSO</p>
         <h2 class="">CONTATO</h2>
-        <a href="mailto:contato@nicolasbueno.com.br"  target="_blank ">convitecasamentos.com.br<img src="img/email.svg" id="email-img" width="48" height="48"></a>
+        <a href="mailto:contato@nicolasbueno.com.br" target="_blank ">convitecasamentos.com.br<img src="img/email.svg" id="email-img" width="48" height="48"></a>
         <a href="https://api.whatsapp.com/send/?phone=5551989582143&text=Ol%C3%A1,+gostaria+de+saber+mais+sobre+os+convites!!&type=phone_number&app_absent=0" id="tel" target="_blank ">51 989582143<img src="img/whats.svg" id="email-img" width="48" height="48"></a>
-        <a href="https://www.instagram.com/convitecasamentos"  target="_blank ">@convitecasamentos<img src="img/insta.svg" id="email-img" width="48" height="48"></a>
+        <a href="https://www.instagram.com/convitecasamentos" target="_blank ">@convitecasamentos<img src="img/insta.svg" id="email-img" width="48" height="48"></a>
       </div>
       <form action="./enviar.php" method="post">
         <input type="text" placeholder="Seu nome" name="nome" required="">
@@ -124,6 +129,10 @@
     </div>
   </section>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 
