@@ -1,0 +1,18 @@
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #494B3E;
+    width:100%;
+    text-align: center;
+    color: #858881;
+  
+  
+   }
+
+
+
+@media(max-width:600px){
+    footer p {
+      font-size: 14px;
+    }
+}
