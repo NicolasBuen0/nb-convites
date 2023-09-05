@@ -21,15 +21,14 @@
   font-size: (14dpx + 0.5vw);
   color:#575757;
   padding-top: 20px;
-  opacity: 0;
+  display: none;
 }
 
 .pergunta {
   font-family: 'Playfair Display';
   font-size:calc(15px + 0.5vw); 
   position: relative;
-
-
+  cursor: pointer;
 }
 
 .pergunta::after {
@@ -53,9 +52,8 @@ bottom: 0;
 
 
 .pergunta.ativo + .resposta {
-  opacity: 1;
-  transform: none;
-  transition: transform 0.8s, opacity 0.8s;
+  display: block;
+  animation: slideDown 0.5s forwards;
 
 
 
@@ -65,4 +63,15 @@ bottom: 0;
   transform: rotate3d(90deg)!important;
   transform: rotate(180deg);
   
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 200px;
+  }
 }

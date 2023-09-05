@@ -1,23 +1,35 @@
-.contato-bg.grid-2-cl {
-  gap: 0px;
-  padding-top: 100px;
-  padding-bottom: 50px;
+.grid-2-cl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+
+@media (max-width: 800px) {
+  .grid-2-cl {
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
 }
 
 
 #email-img {
   width: 48px;
   padding-right: 20px;
+  
 }
 
 .contato {
   padding-left: 20px;
   padding-right: 20px;
+ 
+
 
 }
 
 .contato .detalhe{
   padding-top: 0px;
+    
 
 }
 
@@ -40,6 +52,8 @@
   flex-direction: row-reverse;
   padding-bottom: 20px;
   color: #858881; 
+  padding-right: 10px;
+
 
 }
 
@@ -79,12 +93,14 @@ label {
 input,
 textarea {
   margin-bottom: 20px;
+  border-radius: 0px;
 }
 
 textarea {
   background: transparent;
   border: 2px solid black;
   resize: none;
+
 }
 
 form,
@@ -92,6 +108,7 @@ input,
 textarea,
 label {
   font: 400 1.2rem/1.5 "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 input:focus,
@@ -99,19 +116,23 @@ textarea:focus {
   outline: none;
 }
 
-.img {
-  height: 905px;
-}
+
 
 .img img {
   height: 100%;
   object-fit: cover;
-  object-position: right;
+  object-position: center;
 }
 
 @media (max-width: 800px) {
   .img {
       display: none;
+     
+  }
+
+  .contato {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -124,4 +145,11 @@ textarea:focus {
 
 .contato h2::after, .contato h2::before{
   width:25%;
+  
+}
+.desejar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Playfair Display';
+  font-size: calc(16px + 0.5px)
 }

@@ -8,16 +8,3 @@
 
 
 
-.grid-2-cl {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-
-
-@media (max-width: 800px) {
-  .grid-2-cl {
-      grid-template-columns: 1fr;
-      gap: 20px;
-  }
-}
